@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="device-width,initial-scale=1.0">
+    <title>Soham Thodge</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header starts-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.png" class="logo">
+                <ul>
+                    <li><a href="#Services">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#Portfolio">My Projects</a></li>
+                    <li><a href="#Contact">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1 class=>Hi I'm <span>Soham Thodge</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--Header ends-->
+    <!--About section starts-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Sophomore at Savitribaibai Phule Pune University currently pursuing a BE in Information
+                        Technology.I am fairly proficient in basic programming in Python,C++,Java and also currently
+                        practicing frontend development using HTML,CSS and BOOTSTRAP.
+                        I am also certified in communication skills by the University of Cambridge in English level B2
+                        and a regular Google cloud practitioner.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Frontend design</li>
+                            <li><span>Python/DBMS</span><br>Basic programming</li>
+                            <li><span>Google Cloud</span><br>Cloud practitioner</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Frontend designing and projects at Udemy</li>
+                            <li><span>2017-Current</span><br>Basic programming</li>
+                            <li><span>2022-Current</span><br>Cloud practitioner at Google Cloud Platform</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018-2019</span><br>Class X-93.2%</li>
+                            <li><span>2020-2021</span><br>Class XII-85%</li>
+                            <li><span>2021-Current</span><br>B.E. in IT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About section ends--->
+    <!--Services start-->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><span>Frontend developer</span></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus obcaecati, veniam
+                        aspernatur nemo libero quae hic quia dignissimos repudiandae iste sapiente exercitationem nam
+                        aut itaque accusamus dolor repellendus nihil temporibus modi. Sunt facilis saepe inventore.
+                        Suscipit eaque tenetur possimus modi!il? Eaque, id magni ut dolore quia et?
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2><span>Python programming</span></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus obcaecati, veniam
+                        aspernatur nemo libero quae hic quia dignissimos repudiandae iste sapiente exercitationem nam
+                        aut itaque accusamus dolor repellendus nihil temporibus modi. Sunt facilis saepe inventore.
+                        Suscipit eaque tenetur possimus modi!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-language"></i>
+                    <h2><span>Communication workshops</span></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus obcaecati, veniam
+                        aspernatur nemo libero quae hic quia dignissimos repudiandae iste sapiente exercitationem nam
+                        aut itaque accusamus dolor repellendus nihil temporibus modi. Sunt facilis saepe inventore.
+                        Suscipit eaque tenetur possimus modi!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <!--Services end-->
+        <!--Portfolio starts-->
+        <div id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/work-1.png">
+                        <div class="layer">
+                            <h3>Tiffin delivery site</h3>
+                            <p>This site allows you to order tiffins from your nearest messes and ensures timely
+                                delivery of food.</p>
+                            <a href="https://dabewallah.000webhostapp.com/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/work-2.png">
+                        <div class="layer">
+                            <h3>Hospital Management</h3>
+                            <p>This Python code helps you to manage patient's database along with pharmaceuticals and
+                                medical billing.</p>
+                            <a
+                                href="https://colab.research.google.com/drive/1HW5CEH_wmG6LPe60VzaIYJ06Yioj7iJx?usp=sharing"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/work-3.png">
+                        <div class="layer">
+                            <h3>Communications workshop</h3>
+                            <p>I have conducted many communication workshops and am currently running a club for
+                                personality development</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--portfolio ends-->
+        <!--Contact starts-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>thodgesoham17@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/kronos2003"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://developers.google.com/profile/u/TheOnlySoham"><i
+                                    class="fa-solid fa-code"></i></a>
+                            <a href="https://www.linkedin.com/in/soham-thodge-515676229/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Images/SohamThodge_InternshalaResume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <input type="number" name="ConNum" placeholder="Your contact details" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button tpye="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Designed by Soham Thodge</p>
+            </div>
+        </div>
+        <!--Contact ends-->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontent = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontent) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyhdu3TH83zMd8d6PU5UH0WDJxGdC7hrEUonq4j7f_EtciDCxs4D_0S3BcYnJT5PI1P-Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
